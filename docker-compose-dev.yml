@@ -3,6 +3,6 @@ services:
   learn:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
-      - "8000:80"
+      - "8000:8000"
