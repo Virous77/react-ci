@@ -9,6 +9,6 @@ describe("App", () => {
 
   it("renders App", () => {
     const { getByText } = render(<App />);
-    expect(getByText("App")).toBeInTheDocument();
+    expect(getByText("Hello AWS!")).toBeInTheDocument();
   });
 });
